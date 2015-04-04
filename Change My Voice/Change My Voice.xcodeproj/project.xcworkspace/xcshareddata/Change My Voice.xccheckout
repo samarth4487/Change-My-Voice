@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>006A056A-4470-4E2A-8682-C96B17BBA2BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Change My Voice</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5D15029341CB314C9BD6109FC799F11190657796</key>
+		<string>https://github.com/samarth4487/Change-My-Voice.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Change My Voice/Change My Voice.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5D15029341CB314C9BD6109FC799F11190657796</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/samarth4487/Change-My-Voice.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5D15029341CB314C9BD6109FC799F11190657796</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5D15029341CB314C9BD6109FC799F11190657796</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Change-My-Voice</string>
+		</dict>
+	</array>
+</dict>
+</plist>
