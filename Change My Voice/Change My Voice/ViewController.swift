@@ -10,19 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var recordingInProgress: UILabel!
-
-    @IBOutlet weak var labelStopRecording: UILabel!
     
-    @IBOutlet weak var stopRecording: UIButton!
+    @IBOutlet weak var starting: UILabel!
     
     @IBOutlet weak var recordAudio: UIButton!
     
-    @IBAction func stopRecording(sender: UIButton) {
-        recordingInProgress.hidden = true
-        labelStopRecording.hidden = true
-        recordAudio.enabled = true
-    }
+    @IBOutlet weak var recordingInProgress: UILabel!
+    
+    @IBOutlet weak var stopRecording: UIButton!
+    
+    @IBOutlet weak var labelStopRecording: UILabel!
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -35,6 +33,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func recordAudio(sender: UIButton) {
+        starting.hidden = true
         recordingInProgress.hidden = false
         labelStopRecording.hidden = false
         stopRecording.hidden = false
@@ -44,5 +43,8 @@ class ViewController: UIViewController {
         println("in recordAudio")
     }
 
+    @IBAction func stopRecording(sender: AnyObject) {
+        
+    }
 }
 

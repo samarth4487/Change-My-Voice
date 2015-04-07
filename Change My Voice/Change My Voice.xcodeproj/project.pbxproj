@@ -13,6 +13,8 @@
 		982111CC1ACEEEFD0025B811 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982111CB1ACEEEFD0025B811 /* Images.xcassets */; };
 		982111CF1ACEEEFD0025B811 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982111CD1ACEEEFD0025B811 /* LaunchScreen.xib */; };
 		982111DB1ACEEEFE0025B811 /* Change_My_VoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982111DA1ACEEEFE0025B811 /* Change_My_VoiceTests.swift */; };
+		98E31B1B1AD049A40091268F /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E31B1A1AD049A40091268F /* PlaySoundsViewController.swift */; };
+		98EE829C1AD0774200D49B2D /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98EE829B1AD0774200D49B2D /* movie_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		982111D41ACEEEFD0025B811 /* Change My VoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Change My VoiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		982111D91ACEEEFE0025B811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		982111DA1ACEEEFE0025B811 /* Change_My_VoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_My_VoiceTests.swift; sourceTree = "<group>"; };
+		98E31B1A1AD049A40091268F /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		98EE829B1AD0774200D49B2D /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 				982111C41ACEEEFD0025B811 /* AppDelegate.swift */,
 				982111C61ACEEEFD0025B811 /* ViewController.swift */,
 				982111C81ACEEEFD0025B811 /* Main.storyboard */,
+				98E31B1A1AD049A40091268F /* PlaySoundsViewController.swift */,
 				982111CB1ACEEEFD0025B811 /* Images.xcassets */,
 				982111CD1ACEEEFD0025B811 /* LaunchScreen.xib */,
 				982111C21ACEEEFD0025B811 /* Supporting Files */,
@@ -90,6 +95,7 @@
 		982111C21ACEEEFD0025B811 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98EE829B1AD0774200D49B2D /* movie_quote.mp3 */,
 				982111C31ACEEEFD0025B811 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,7 @@
 			files = (
 				982111CA1ACEEEFD0025B811 /* Main.storyboard in Resources */,
 				982111CF1ACEEEFD0025B811 /* LaunchScreen.xib in Resources */,
+				98EE829C1AD0774200D49B2D /* movie_quote.mp3 in Resources */,
 				982111CC1ACEEEFD0025B811 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				982111C71ACEEEFD0025B811 /* ViewController.swift in Sources */,
+				98E31B1B1AD049A40091268F /* PlaySoundsViewController.swift in Sources */,
 				982111C51ACEEEFD0025B811 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				982111E01ACEEEFE0025B811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		982111E11ACEEEFE0025B811 /* Build configuration list for PBXNativeTarget "Change My VoiceTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				982111E31ACEEEFE0025B811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
